@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\Lib_EaBaseBoard\Lib_EaBaseBoard.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\Lib_MCU\Lib_MCU.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\oled_periph\oled_periph.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>All</name>
+      <member>
+        <project>adc_int</project>
+        <configuration>Flash</configuration>
+      </member>
+      <member>
+        <project>adc_int</project>
+        <configuration>RAM</configuration>
+      </member>
+      <member>
+        <project>adc_polling</project>
+        <configuration>Flash</configuration>
+      </member>
+      <member>
+        <project>adc_polling</project>
+        <configuration>RAM</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+
