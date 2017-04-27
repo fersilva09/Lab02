@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2857388611</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\Lib_MCU\src\i2c.c</file>
+      <file>$PROJ_DIR$\..\Lib_EaBaseBoard\src\oled.c</file>
+      <file>$PROJ_DIR$\..\Lib_MCU\src\gpio.c</file>
+      <file>$PROJ_DIR$\..\Device\NXP\LPC13xx\Source\IAR\startup_LPC13xx.s</file>
+      <file>$PROJ_DIR$\..\Lib_MCU\Debug\Exe\Lib_MCU.a</file>
+      <file>$PROJ_DIR$\..\Lib_EaBaseBoard\Debug\Exe\Lib_EaBaseBoard.a</file>
+      <file>$PROJ_DIR$\src\main.c</file>
+      <file>$PROJ_DIR$\readme.txt</file>
+      <file>$PROJ_DIR$\..\Lib_MCU\inc\gpio.h</file>
+      <file>$PROJ_DIR$\..\Device\NXP\LPC13xx\Source\system_LPC13xx.c</file>
+      <file>$PROJ_DIR$\..\Lib_MCU\inc\timer32.h</file>
+      <file>$PROJ_DIR$\..\Lib_MCU\inc\ssp.h</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\Lib_MCU\inc\uart.h</file>
+      <file>$PROJ_DIR$\..\Lib_EaBaseBoard\inc\acc.h</file>
+      <file>$PROJ_DIR$\..\Lib_MCU\inc\i2c.h</file>
+      <file>$PROJ_DIR$\..\Lib_EaBaseBoard\inc\temp.h</file>
+      <file>$PROJ_DIR$\..\common\cstartup_M.s</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\linker\ldscript_irom_iar.ld</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\..\Lib_MCU\inc\type.h</file>
+      <file>$PROJ_DIR$\..\Lib_MCU\inc\adc.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\..\Lib_MCU\inc\mcu_regs.h</file>
+      <file>$PROJ_DIR$\..\Lib_EaBaseBoard\inc\light.h</file>
+      <file>$PROJ_DIR$\..\Lib_EaBaseBoard\inc\oled.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_LPC13xx.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_LPC13xx.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\oled_periph.pbd</file>
+      <file>$PROJ_DIR$\..\Device\NXP\LPC13xx\Include\LPC13xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_LPC13xx.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\cstartup_M.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\oled_periph.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm3.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\Lib_MCU\src\uart.c</file>
+      <file>$PROJ_DIR$\..\Lib_EaBaseBoard\src\temp.c</file>
+      <file>$PROJ_DIR$\..\Device\NXP\LPC13xx\Include\system_LPC13xx.h</file>
+      <file>$PROJ_DIR$\..\Lib_MCU\src\adc.c</file>
+      <file>$PROJ_DIR$\..\Lib_MCU\src\clkconfig.c</file>
+      <file>$PROJ_DIR$\..\Lib_MCU\src\timer32.c</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Device\NXP\LPC13xx\Source\IAR\startup_LPC13xx.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 25 10 17 16 8 29 36 41 49 24 37 18 11 28 19 54 21 51 42 34 27 47 13 50 31 48 44 15 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27 36 47 41 49 51 50 48 44 31 42 13 38 15 21 54 24 16 37 34 30 10 18 8 11 25 28 29 19 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Device\NXP\LPC13xx\Source\system_LPC13xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 44 49 54 38 36 51 50 48 13 41 42 47 21 15</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 49 51 50 48 44 31 42 36 47 13 38 15 21 54</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\cstartup_M.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\oled_periph.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 22 5 4 46 39 32 14 26 12 23</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
